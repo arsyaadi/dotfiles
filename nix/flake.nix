@@ -31,6 +31,9 @@
         pkgs.cargo
         pkgs.iterm2
         pkgs.tree
+        pkgs.zsh-z
+        pkgs.zsh-autosuggestions
+        pkgs.rbenv
       ];
 
       services.yabai.enable = true;
