@@ -22,11 +22,9 @@
         pkgs.vscode
         pkgs.git
         pkgs.nodejs
-        pkgs.npm
         pkgs.zsh
         pkgs.oh-my-zsh
-        pkgs.nvm
-        pkgs.startship
+        pkgs.starship
         pkgs.rustc
         pkgs.cargo
         pkgs.iterm2
@@ -34,7 +32,22 @@
         pkgs.zsh-z
         pkgs.zsh-autosuggestions
         pkgs.rbenv
+        pkgs.ripgrep
+        pkgs.docker
+        pkgs.nginx
+        pkgs.autoconf
+        pkgs.colima
+        pkgs.docker
+        pkgs.openssl
+        pkgs.wget
       ];
+
+      homebrew = {
+        enable = true;
+        brews = [
+          "php"
+        ];
+      };
 
       services.yabai.enable = true;
 
