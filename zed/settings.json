@@ -1,0 +1,90 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "icon_theme": "Zed (Default)",
+  "base_keymap": "VSCode",
+  // cursor
+  "cursor_blink": true,
+  "cursor_shape": "bar",
+  // font
+  "buffer_font_family": "Fira Code",
+  "ui_font_family": "Fira Code",
+  "buffer_font_size": 14,
+  "buffer_font_weight": 300,
+  "ui_font_size": 14,
+  "buffer_line_height": {
+    "custom": 1.8
+  },
+  "buffer_font_features": {
+    "calt": true
+  },
+  // VIM
+  "vim_mode": true,
+  "relative_line_numbers": "wrapped",
+  // Panel
+  "toolbar": {
+    "breadcrumbs": false,
+    "quick_actions": false
+  },
+  "project_panel": {
+    "entry_spacing": "comfortable"
+  },
+  "tabs": {
+    "file_icons": true,
+    "git_status": true
+  },
+  "preview_tabs": {
+    "enabled": true
+  },
+  "active_pane_modifiers": {
+    "border_size": 2
+  },
+  "bottom_dock_layout": "contained",
+  "confirm_quit": true,
+  "minimap": {
+    "show": "never"
+  },
+  "title_bar": {
+    "show_branch_icon": true
+  },
+  // Editor
+  "inlay_hints": {
+    "enabled": true
+  },
+  "auto_signature_help": true,
+  "diagnostics_max_severity": "all",
+  "current_line_highlight": "none",
+  "selection_highlight": false,
+  "linked_edits": true,
+  "use_smartcase_search": true,
+  "show_whitespaces": "selection",
+  // AI
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "show_edit_predictions": true,
+  // formatter
+  "formatter": "language_server",
+  // git
+  "git": {
+    "branch_picker": {
+      "show_author_name": true
+    },
+    "git_gutter": "tracked_files"
+  },
+  // terminal
+  "terminal": {
+    "copy_on_select": true
+  },
+  // other
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}
