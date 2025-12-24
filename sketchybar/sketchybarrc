@@ -1,0 +1,6 @@
+#!/usr/bin/env lua
+
+-- Load the sketchybar-package and prepare the helper binaries
+require("helpers")
+require("init")
+os.execute("sketchybar -c /Users/arsya/Desktop/projects/sketchybar/bottom_bar.lua &")
